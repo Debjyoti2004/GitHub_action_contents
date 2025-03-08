@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Calculator {
     public static double add(double x, double y) {
         return x + y;
