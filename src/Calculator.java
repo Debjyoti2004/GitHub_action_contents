@@ -8,10 +8,6 @@ public class Calculator {
         return x - y;
     }
 
-    public static double multiply(double x, double y) {
-        return x * y;
-    }
-
     public static String divide(double x, double y) {
         if (y == 0) {
             return "Error: Cannot divide by zero";
