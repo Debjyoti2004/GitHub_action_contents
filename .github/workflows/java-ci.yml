@@ -1,5 +1,4 @@
 name: Java Calculator CI
-
 on:
   push:
     branches:
