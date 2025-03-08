@@ -23,7 +23,10 @@ jobs:
           java-version: '17'       
 
       - name: Compile Java Code
-        run: javac Calculator.java
+        run: |
+          javac -d src/ src/Calculator.java
 
       - name: Run Java Application with Simulated Input
-        run: echo -e "1\n10\n5\nq" | java Calculator
+        run: |
+          cd src
+          echo -e "1\n10\n5\nq" | java Calculator
